@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 nav{
-    background: #000000;
+    background-color: black;
     height: 80px;
     width: 100%;
 }
@@ -15,10 +15,10 @@ img.logo{
     padding: 0 50px;
 }
 nav ul{
+    backdrop-filter: blur(10px);
+    color: white;
     float: right;
     margin-right: 20px;
-    /* -webkit-filter: blur($blur);
-    filter: blur($blur); */
 }
 nav ul li{
     display: inline-block;
@@ -34,8 +34,11 @@ nav ul li a{
 }
 
 a.active, a:hover{
-    background: gray;
-    transition: .5s;
+    
+    border-spacing: 10px 10px;
+    border-bottom: 1px solid white;
+    /* background: gray;
+    transition: .5s; */
 }
 .checkbtn{
     font-size: 30px;
@@ -59,5 +62,33 @@ a.active, a:hover{
     }
 }
 @media(max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        /* background: gainsboro; */
+        top: 80px;
+        right: -110%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover,a.active{
+        background: none;
+        color: gray;
+    }
+    #check:checked ~ ul{
+        left: 0;
 
+    }
 }
