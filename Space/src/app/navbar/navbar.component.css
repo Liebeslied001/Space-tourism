@@ -5,6 +5,10 @@
     list-style: none;
     box-sizing: border-box;
 }
+.fondo{
+    background-color: black;
+    display: flex;
+}
 nav{
     background-color: black;
     height: 80px;
