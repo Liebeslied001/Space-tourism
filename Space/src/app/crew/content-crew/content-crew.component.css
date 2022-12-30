@@ -1,0 +1,28 @@
+.bg-crew {
+  background-image: url("../../../assets/img-crew/background-crew-desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 100px;
+}
+
+.crew-tittle {
+  font-size: 60px;
+}
+
+.crew-p {
+  padding-right: 115px;
+  margin-bottom: 200px;
+}
+
+.point span{
+  border-radius: 50%;
+  background-color: grey;
+  margin: 15px;
+  padding: 1px 12px;
+}
+
+.crew-img {
+  padding: 50px 0px 0px 0px;
+}

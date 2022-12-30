@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NavbarComponent } from './navbar/navbar.component';
+// import { NavbarComponent } from './navbar/navbar.component';
 import { ContentComponent } from './content/content.component';
 
 
 
 @NgModule({
   declarations: [
-    NavbarComponent,
+    // NavbarComponent,
     ContentComponent
   ],
   imports: [
@@ -15,7 +15,7 @@ import { ContentComponent } from './content/content.component';
   ],
   exports:[
     ContentComponent,
-    NavbarComponent,
+    // NavbarComponent,
   ]
 })
 export class HomeModule { }
