@@ -1,3 +1,7 @@
+- Joseph Araujo Guevara 930232945
+- Yanina Olivera
+- Ruth Palomino
+
 # Frontend Mentor - Space tourism website
 
 ![Design preview for the Space tourism website coding challenge](./preview.jpg)

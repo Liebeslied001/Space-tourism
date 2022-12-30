@@ -6,3 +6,7 @@
     list-style: none;
     box-sizing: border-box;
 } */
+body{
+    background-image: url(../src/assets/technology/background-technology-desktop.jpg);
+    background-repeat: no-repeat;
+}
