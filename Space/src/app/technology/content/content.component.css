@@ -1,0 +1,33 @@
+.bg-tech{
+    background-image: url("../../../assets/bg-tech.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0px 100px 50px;
+}
+
+.tech-number{
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 35px 80px 35px 10px;
+    padding: 16px 16px;
+    text-align: center;
+}
+
+.tech-number span{
+    color: white;
+    font-size: 20px;
+}
+
+.tech-tittle{
+    font-size: 60px;
+}
+
+.tech-p{
+    padding-right: 115px;
+}
+
+.tech-img{
+    padding: 50px 0px 0px 0px;
+}
