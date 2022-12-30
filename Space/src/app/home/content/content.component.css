@@ -1,0 +1,30 @@
+*{
+    color: white;
+}
+#main{
+    margin:150px;
+    display: flex;
+    gap: 200px;
+    align-items: center;
+}
+#explore{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+    width: 350px;
+    height: 200px;
+}
+#explore p{
+    color: black;
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+}
+
+#text p{
+    font-style:normal;
+}
