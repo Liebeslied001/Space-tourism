@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CrewModule } from './crew/crew.module';
 import { DestinationModule } from './destination/destination.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { TechnologyModule } from "./technology/technology.module";
-import { HomeModule } from './home/home.module';
+
+// import { HomeModule } from './home/home.module';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,7 @@ import { HomeModule } from './home/home.module';
     AppRoutingModule,
     TechnologyModule,
     DestinationModule,
-    HomeModule
+    CrewModule
   ]
 })
 export class AppModule { }
