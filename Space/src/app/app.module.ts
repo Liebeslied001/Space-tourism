@@ -7,8 +7,7 @@ import { CrewModule } from './crew/crew.module';
 import { DestinationModule } from './destination/destination.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { TechnologyModule } from "./technology/technology.module";
-
-// import { HomeModule } from './home/home.module';
+import { HomeModule } from './home/home.module';
 
 @NgModule({
   declarations: [
@@ -24,7 +23,8 @@ import { TechnologyModule } from "./technology/technology.module";
     AppRoutingModule,
     TechnologyModule,
     DestinationModule,
-    CrewModule
+    CrewModule,
+    HomeModule
   ]
 })
 export class AppModule { }
