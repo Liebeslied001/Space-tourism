@@ -9,20 +9,20 @@ import { TechnologyModule } from "./technology/technology.module";
 import { HomeModule } from './home/home.module';
 
 @NgModule({
-    declarations: [
-        AppComponent,
-        NavbarComponent
-    ],
-    providers: [],
-    bootstrap: [
-        AppComponent
-    ],
-    imports: [
-        BrowserModule,
-        AppRoutingModule,
-        TechnologyModule,
-        DestinationModule,
-        HomeModule
-    ]
+  declarations: [
+    AppComponent,
+    NavbarComponent
+  ],
+  providers: [],
+  bootstrap: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    TechnologyModule,
+    DestinationModule,
+    HomeModule
+  ]
 })
 export class AppModule { }
