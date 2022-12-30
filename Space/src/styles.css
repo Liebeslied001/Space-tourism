@@ -8,4 +8,5 @@
 } */
 body{
     background-image: url(../src/assets/technology/background-technology-desktop.jpg);
+    background-repeat: no-repeat;
 }
