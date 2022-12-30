@@ -1,0 +1,216 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap'); */
+
+.seccion{
+    background-image: url(../../../assets/fondo-dest.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.seccion .content{
+    width: 80%;
+    margin: auto;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.seccion .content .title-img {
+    width: 50%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.title-img h1{
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.3rem;
+    padding: 0.6rem;
+    letter-spacing: -2px;
+
+}
+.title-img h1 span{
+    padding-right: 0.7rem;
+    font-weight: 700;
+    color: rgb(102, 102, 102);
+}
+.title-img img{
+    width: 90%;
+    padding: 2rem;
+}
+.seccion-mars {
+    display: inline-block;
+    width: 43%;
+    padding: 2rem;
+    margin-top: -2rem;
+    color: #fff;
+}
+.header-mars{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 0.8rem;
+}
+.header-mars button {
+    display: block;
+    padding: 0.5rem;
+    background-color: transparent;
+    border: none;
+    font-weight: 300;
+    font-size: 1.2vw;
+    color: rgba(255, 255, 255, 0.849);
+    cursor: pointer;
+    transition: 0.5s ease;
+    letter-spacing: -1px;
+}
+.header-mars .activo{
+    border-bottom: 2px solid #fff;
+}
+.mars .content-mars{
+    display: block;
+}
+.content-mars h1{
+    font-family: "Bellefair", serif;
+    letter-spacing: -5px;
+    margin-top: 1.8rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 5vw;
+    color: rgb(255, 255, 255);
+}
+.content-mars p{
+    font-size: 1.1vw;
+    color: rgba(255, 255, 255, 0.89);
+    line-height: 2;
+    text-align: justify;
+    margin-bottom: 3rem;
+    font-weight: 200;
+}
+.content-mars hr {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin: 0;
+}
+.info-mars {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+} 
+.info-box{
+    display: block;
+    width: 50%;
+    padding: 1rem;
+}
+.info-box h2 {
+    font-size: 1vw;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.815);
+}
+.info-box span {
+    font-size: 1.7vw;
+    font-weight: 300;
+} 
+
+/*------------------ Responsive -----------------*/
+@media (max-width: 768px){
+    .seccion .content{
+        width: 100%;
+        flex-direction: column;
+    }
+    .seccion .content .title-img {
+        width: 95%;
+        margin-top: 3rem;
+    }
+    .title-img h1{
+        font-size: 3vw;
+    }
+    .title-img img{
+        width: 65%;
+        margin: auto;
+    }
+    .seccion-mars {
+        width: 85%;
+    }
+    .header-mars{
+        justify-content: center;
+    }
+    .header-mars button {
+        font-size: 3vw;
+    }
+    .mars .content-mars h1{
+        text-align: center;
+        font-size: 15vw;
+    }
+    .mars .content-mars p{
+        width: 100%;
+        font-size: 2vw;
+        text-align: center;
+        margin-bottom: 2rem;
+        letter-spacing: 1px;
+    }
+    .info-mars {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    } 
+    .info-box{
+        display: block;
+        width: 50%;
+        padding: 1rem;
+    }
+    .info-box h2 {
+        font-size: 2.5vw;
+        text-align: center;
+    }
+    .info-box span {
+        font-size: 4.5vw;
+        text-align: center;
+        width: 100%;
+        display: block;
+    } 
+}
+
+/*------------------ Responsive -----------------*/
+@media (max-width: 450px) {
+    .seccion .content .title-img h1{
+        width: 100%;
+        text-align: center;
+        font-size: 5vw;
+    }
+    .seccion .content .title-img img{
+        width: 55%;
+        padding: 0;
+    }
+    .seccion-mars {
+        width: 100%;
+    }
+    .seccion-mars .header-mars button {
+        font-size: 4.3vw;
+    }
+    .mars .content-mars p{
+        font-size: 3.4vw;
+    }
+    .mars .content-mars .info-mars{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .info-box{
+        width: 100%;
+    }
+    .info-box h2{
+        font-size: 4vw;
+    }
+    .info-box span{
+        font-size: 8vw;
+    }
+}
