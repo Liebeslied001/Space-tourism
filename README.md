@@ -1,4 +1,4 @@
-- Joseph Araujo Guevara 930232945
+- Joseph Araujo Guevara 
 - Yanina Olivera
 - Ruth Palomino
 - Refaim Daza
