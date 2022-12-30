@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { TechnologyModule } from "./technology/technology.module";
+import { HomeModule } from './home/home.module';
 
 @NgModule({
     declarations: [
@@ -16,7 +17,8 @@ import { TechnologyModule } from "./technology/technology.module";
     imports: [
         BrowserModule,
         AppRoutingModule,
-        TechnologyModule
+        TechnologyModule,
+        HomeModule
     ]
 })
 export class AppModule { }
