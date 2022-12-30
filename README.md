@@ -1,4 +1,6 @@
 Joseph Araujo Guevara 930232945
+Yanina Olivera
+Ruth Palomino
 
 
 # Frontend Mentor - Space tourism website
